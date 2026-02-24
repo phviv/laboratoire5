@@ -17,7 +17,7 @@ html {
 
 /* ===== Numéro 1 ===== */
 body {
-    font: normal 1.125rem/160%, 'PT Sans', sans-serif;
+    font: normal 1.125rem/160% 'PT Sans', sans-serif;
 }
 
 
@@ -108,7 +108,6 @@ header .wrapper {
 
 /* ===== Numéro 4c ===== */
 .hero .contenu{
-    font: Nunito, sans-serif;
     max-width: 50%;
     color: #fff;
 }
@@ -121,75 +120,69 @@ header .wrapper {
     color: #F2545B;
 }
 
+/* ===== Numéro 5c (déplacé) ===== */
+
+.athletes {
+    padding: 100px 0;
+}
 
 /* ===== Numéro 5a ===== */
 
 .athletes h2 {
     font: bold 3.125rem Nunito, sans-serif;
+    letter-spacing: 0.05em;
     margin: 0 0 50px;
 }
 
 
 /* ===== Numéro 5b ===== */
-/*
+
 .athletes p {
-    margin-right: 0;
-    margin-bottom: 50px;
-    margin-top: 0;
-    margin-left: 0;
+    margin: 0 0 50px;
 }
-*/
-
-/* ===== Numéro 5c ===== */
-/*
-.athletes {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 0;
-    padding-right: 0;
-}
-*/
-
 
 /* ===== Numéro 5d ===== */
 .athletes-photos {
-
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    row-gap: 30px;
 }
 
 /* ===== Numéro 5e ===== */
 .athletes-photos img {
-
+    max-width: 100%;
+    max-height: 100%;
 }
 
 /* ===== Numéro 5f ===== */
 .athlete1 {
-
+    grid-column: span 2;
+    grid-row: span 2;
 }
 
 
 /* ===== Numéro 6a ===== */
 footer {
-
+    background-color: #000;
 }
 
 footer .wrapper {
-
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 0;
 }
 
 /* ===== Numéro 6b ===== */
-/*
-.menu-social {
-    margin-top: 0;
-    margin-left: 0;
-    margin-bottom: 0;
-    margin-right: 0;
 
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    padding-bottom: 0;
+.menu-social {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 10px;
 }
-*/
+
 
 
 /* ===== Numéro 6c ===== */
