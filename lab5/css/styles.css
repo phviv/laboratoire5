@@ -184,16 +184,24 @@ footer .wrapper {
 }
 
 
-
 /* ===== Numéro 6c ===== */
 
-footer .wrapper .menu-social a {
+footer .wrapper a{
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 100%;
+    background-color: #F2545B;
+    height: 40px;
+    width: 40px;
+    text-decoration: none;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* ===== Numéro 6d ===== */
-/*
+
 .menu-social a:hover {
     background: gray;
 }
-*/
