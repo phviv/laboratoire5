@@ -17,10 +17,7 @@ html {
 
 /* ===== Numéro 1 ===== */
 body {
-    font-family: 'PT Sans', sans-serif;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 160%;
+    font: normal 1.125rem/160%, 'PT Sans', sans-serif;
 }
 
 
